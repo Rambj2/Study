@@ -2,13 +2,14 @@ Steps to Push code to GitHub
 cd D:\Maven\DropitAdmin-->Goto folder location then open CMD
 git init
 git remote add origin https://github.com/YourUsername/DropitAdmin.git
+git add . or git add fileName
 git commit -m "Added notes.txt"
 git branch -M main
 git push -u origin main
 
 ===============================================
 If Code pushed to git first time then needs three commands only
-git add .
+git add . or git add fileName
 git commit -m "Updated files from office"
 git push
 
